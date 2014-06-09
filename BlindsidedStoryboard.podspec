@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/pivotal-brian-croom/BlindsidedStoryboard"
   s.license          = 'MIT'
   s.author           = { "Brian Croom" => "bcroom@pivotallabs.com" }
-  s.source           = { :git => "https://github.com/pivotal-brian-croom/BlindsidedStoryboard.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/joemasilotti/BlindsidedStoryboard.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
@@ -20,5 +20,4 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/*.{h,m}'
   s.public_header_files = 'Classes/**/*.h'
-  s.dependency 'Blindside', git: 'https://github.com/jbsf/blindside.git'
 end
